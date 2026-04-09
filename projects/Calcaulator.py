@@ -40,3 +40,5 @@ else:
     print("ERROR")
     
     print("Reload program")
+
+#STGHECKER#
