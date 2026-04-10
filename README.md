@@ -15,4 +15,5 @@ Simple pyhton projects for begginers, doesn't require extrenal libraries.
 
 ## Currency_Converter
 - Convert currencies. 
+
 ⚠️ Conversions are based on 2nd of April, 2026. 
