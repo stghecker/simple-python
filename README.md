@@ -27,10 +27,7 @@ Create email addresses based on your credentials.
 ---
 
 ### 🔢 Character Counter
-Count characters in:
-- Articles  
-- School essays  
-- Any type of text & symbols
+Count characters in any type of text & symbols
 
 ---
 
