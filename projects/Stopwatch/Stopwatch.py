@@ -1,11 +1,11 @@
 import time
-vseconds = 0
+check = 0
 seconds = input("Give seconds: ")
 
-while vseconds == 0:
+while check == 0:
     try:
         seconds = int(seconds)
-        vseconds = 1
+        check = 1
     except ValueError:
         seconds = input("Please input a number.")
 
