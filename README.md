@@ -8,4 +8,7 @@ Simple pyhton projects for begginers, doesn't require extrenal libraries.
 - Pick random numbers easily
 
 ## Mail_Generator
-- Generate Emails based in your credentials 
+- Generate Emails based in your credentials
+
+## Character_Counter
+- Count numbers from a article, a school essay & any other type of text. 
