@@ -50,12 +50,6 @@ Measure elapsed time easily.
 
 ---
 
-## 🚀 Getting Started
-
-1. Make sure you have Python installed
-2. Download or clone the repository:
-   ```bash
-   git clone https://github.com/your-username/simple-python.git
 
 ### **❓** Did you know?
 You can install python and run pyhton in CLI!
