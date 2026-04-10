@@ -1,22 +1,58 @@
-# simple-python
-Simple pyhton projects for begginers, doesn't require extrenal libraries. 
+# 🐍 Simple Python Projects
+
+A collection of simple Python projects for beginners.  
+No external libraries required — everything is built using standard Python.
+
 ---
-## Calculator 
-- Divide, Multiplicate, Add and Subtract with basic python commands
 
-## DICE
-- Pick random numbers easily
+## 📦 Projects
 
-## Mail_Generator
-- Generate Emails based in your credentials
+### 🧮 Calculator
+Perform basic arithmetic operations:
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-## Character_Counter
-- Count numbers from a article, a school essay & any other type of text. 
+---
 
-## Currency_Converter
-- Convert currencies. 
+### 🎲 Dice
+Generate random numbers, just like rolling a dice.
 
-⚠️ Conversions are based on 2nd of April, 2026. 
+---
 
-## Word_Finder
-- Find how may times in a word in your text.
+### 📧 Mail Generator
+Create email addresses based on your credentials.
+---
+
+### 🔢 Character Counter
+Count characters in:
+- Articles  
+- School essays  
+- Any type of text & symbols
+
+---
+
+### 💱 Currency Converter
+Convert between currencies.
+
+⚠️ **Note:** **Conversion rates are fixed (as of April 2, 2026).**
+
+---
+
+### 🔍 Word Finder
+Find how many times a word appears in a given text.
+
+---
+
+### ⏱️ Stopwatch
+Measure elapsed time easily.
+
+---
+
+## 🚀 Getting Started
+
+1. Make sure you have Python installed
+2. Download or clone the repository:
+   ```bash
+   git clone https://github.com/your-username/simple-python.git
