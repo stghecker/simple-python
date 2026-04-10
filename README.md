@@ -23,6 +23,7 @@ Generate random numbers, just like rolling a dice.
 
 ### 📧 Mail Generator
 Create email addresses based on your credentials.
+
 ---
 
 ### 🔢 Character Counter
