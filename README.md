@@ -17,3 +17,6 @@ Simple pyhton projects for begginers, doesn't require extrenal libraries.
 - Convert currencies. 
 
 ⚠️ Conversions are based on 2nd of April, 2026. 
+
+## Word_Finder
+- Find how may times in a word in your text.
