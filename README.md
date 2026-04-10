@@ -1,4 +1,4 @@
-# 🐍 Simple Python Projects
+# Simple Python Projects
 
 A collection of simple Python projects for beginners.  
 No external libraries required — everything is built using standard Python.
