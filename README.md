@@ -1,6 +1,6 @@
 ## simple-python
 Simple pyhton projects for begginers
 
-#Calculator 
+##Calculator 
 — Divide, Multiplicate, Add and Subtract with basic python commands
 
