@@ -12,3 +12,7 @@ Simple pyhton projects for begginers, doesn't require extrenal libraries.
 
 ## Character_Counter
 - Count numbers from a article, a school essay & any other type of text. 
+
+## Currency_Converter
+- Convert currencies. 
+⚠️ Conversions are based on 2nd of April, 2026. 
