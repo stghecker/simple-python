@@ -48,6 +48,10 @@ Measure elapsed time easily.
 
 ---
 
+### ⏲️ Timer
+Countdown to zero easily.
+
+---
 
 ### **❓** Did you know?
 You can install python and run pyhton in CLI!
