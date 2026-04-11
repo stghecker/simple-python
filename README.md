@@ -48,7 +48,7 @@ Measure elapsed time easily.
 
 ---
 
-### ⏲️ Timer
+### ⏲️ Stopwatch
 Countdown to zero easily.
 
 ---
