@@ -1,47 +1,19 @@
-import random
-score = 0
+import random #imports libraries needed
+
 print("Mastermind")
-num1 = 1
-num2 = 1
-num3 = 1
+
+
+secret = [random.randint(1, 9) for _ in range(3)] #gets 3 random numbers for user to guess
+
+print("Guess 3 numbers between 1 and 9")
+
 while True:
-    if num1 == num2 or num3:
-        num1 = random.randint(1,9)
-    if num2 == num1 or num3:
-        num2 = random.randint(1,9)
-    if num1 or num2 or num3 is not num1 or num2 or num3:
+    guess = [int(input("Number 1: ")), int(input("Number 2: ")), int(input("Number 3: "))] #gets users guesses as 3 different imputs
+    
+    score = sum(1 for num in guess if num in secret) #calculates users score
+    
+    print(f"Score: {score}")
+    
+    if score == 3:
+        print("You won!")
         break
-    else:
-        continue
-
-while True:
-    guessnum1 = input("Guess the 1st number:")
-    guessnum2 = input("Guess the 2nd number:")
-    guessnum3 = input("Guess the 3rd number:")
-
-    if guessnum1 or guessnum2 or guessnum3 == num1 or num2 or num3:
-        if guessnum1 == num1:
-            score += 1
-        if guessnum1 == num2:
-            score += 1
-        if guessnum1 == num3:
-            score += 1
-        if guessnum2 == num1:
-            score += 1
-        if guessnum2 == num2:
-            score += 1
-        if guessnum2 == num3:
-            score += 1
-        if guessnum3 == num1:
-            score += 1
-        if guessnum3 == num2:
-            score += 1
-        if guessnum3 == num3:
-            score += 1
-        if score == "3":
-            print("You won!")
-            break
-        else:
-            print("You guessed" , score , "numbers, try again")
-    else:
-        print("Try again!")
