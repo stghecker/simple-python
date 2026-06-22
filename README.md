@@ -53,6 +53,10 @@ Countdown to zero easily.
 
 ---
 
+### 🐢 Turtle Race
+At every run, a random race between 3 turtles runs.
+
+---
 ### **❓** Did you know?
 You can install python and run pyhton in CLI!
 #### HOW?
