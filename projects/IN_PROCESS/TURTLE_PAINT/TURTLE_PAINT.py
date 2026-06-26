@@ -14,6 +14,9 @@ def move(x,y):
 #SPECIAL#
 def clear():
     t.clear()
+
+
+
 #SHAPES#
 def drawCircle():
     t.circle(50)
@@ -21,6 +24,23 @@ def drawSq():
     for i in range(4):
         t.forward(50)
         t.left(90)
+def drawTriangle():
+    for i in range(3):
+        t.forward(100)
+        t.left(120)
+def draw6Angle():
+    for i in range(6):
+        t.forward(50)
+        t.left(60)
+def drawStar():
+    for i in range(5):
+        t.forward(60)
+        t.left(72)
+        t.forward(60)
+        t.right(144)
+
+
+
 #CORDINATES#
 def return0():
     t.penup()
@@ -53,6 +73,8 @@ def setWhite():
     t.color("white")
 def setBlack():
     t.color("black")
+def setYellow():
+    t.color('yellow')
 #GOTO#
 def draw(x,y):
     t.goto(x,y)
@@ -88,6 +110,7 @@ scr.onkey(setGreen, "g")
 scr.onkey(setBlue, "b")
 scr.onkey(setWhite, "w")
 scr.onkey(setBlack, "m")
+scr.onkey(setYellow, "y")
 scr.onkey(stepDown, "Down")
 scr.onkey(stepUp, "Up")
 scr.onkey(stepRight, "Right")
@@ -97,6 +120,9 @@ scr.onkey(endFill, "e")
 scr.onkey(clear, "c")
 scr.onkey(drawCircle, "1")
 scr.onkey(drawSq, "2")
+scr.onkey(drawTriangle, "3")
+scr.onkey(draw6Angle, "4")
+scr.onkey(drawStar, "5")
 scr.onkey(return0, "0")
 scr.onkey(pensizeup, "x")
 scr.onkey(pensizedown, "z")
