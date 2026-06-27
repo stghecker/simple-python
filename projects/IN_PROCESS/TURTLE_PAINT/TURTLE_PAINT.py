@@ -90,43 +90,36 @@ def stepLeft():
 #FILL#
 
 def startFill():
-    t.begin_fill
+    t.begin_fill()
 def endFill():
-    t.end_fill
-
-#SPEED#
-
-def plusSpeed():
-    t.speed = t.speed + 10
-def downSpeed():
-    t.speed = t.speed - 10
+    t.end_fill()
 
 
 t.ondrag(draw)
 scr = t.getscreen()
 scr.onscreenclick(move)
-scr.onkey(setRed, "r")
-scr.onkey(setGreen, "g")
-scr.onkey(setBlue, "b")
-scr.onkey(setWhite, "w")
-scr.onkey(setBlack, "m")
-scr.onkey(setYellow, "y")
-scr.onkey(stepDown, "Down")
-scr.onkey(stepUp, "Up")
-scr.onkey(stepRight, "Right")
-scr.onkey(stepLeft, "Left")
+scr.onkey(setRed, "1")
+scr.onkey(setGreen, "2")
+scr.onkey(setBlue, "3")
+scr.onkey(setWhite, "4")
+scr.onkey(setBlack, "5")
+scr.onkey(setYellow, "6")
+scr.onkey(stepDown, "s")
+scr.onkey(stepUp, "w")
+scr.onkey(stepRight, "d")
+scr.onkey(stepLeft, "a")
 scr.onkey(startFill, "f")
 scr.onkey(endFill, "e")
-scr.onkey(clear, "c")
-scr.onkey(drawCircle, "1")
-scr.onkey(drawSq, "2")
-scr.onkey(drawTriangle, "3")
-scr.onkey(draw6Angle, "4")
-scr.onkey(drawStar, "5")
+scr.onkey(clear, "q")
+scr.onkey(drawCircle, "z")
+scr.onkey(drawSq, "x")
+scr.onkey(drawTriangle, "c")
+scr.onkey(draw6Angle, "v")
+scr.onkey(drawStar, "b")
 scr.onkey(return0, "0")
-scr.onkey(pensizeup, "x")
-scr.onkey(pensizedown, "z")
-scr.onkey(penup, "s")
-scr.onkey(pendown, "a")
+scr.onkey(pensizeup, "Up")
+scr.onkey(pensizedown, "Down")
+scr.onkey(penup, "Right")
+scr.onkey(pendown, "Left")
 
 scr.listen()
