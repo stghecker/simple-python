@@ -123,3 +123,5 @@ scr.onkey(penup, "Right")
 scr.onkey(pendown, "Left")
 
 scr.listen()
+
+#STGHECKER#
