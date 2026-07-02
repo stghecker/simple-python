@@ -59,7 +59,7 @@ At every run, a random race between 3 turtles runs.
 ---
 
 ### 🎨 Hex Color Picker
-At every run, a random race between 3 turtles runs.
+Simply enter the HEX code in the input and get the color on the screen!
 
 ---
 ### **❓** Did you know?
