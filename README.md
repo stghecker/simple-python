@@ -57,6 +57,11 @@ Countdown to zero easily.
 At every run, a random race between 3 turtles runs.
 
 ---
+
+### 🎨 Hex Color Picker
+At every run, a random race between 3 turtles runs.
+
+---
 ### **❓** Did you know?
 You can install python and run pyhton in CLI!
 #### HOW?
