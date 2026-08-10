@@ -1,15 +1,19 @@
-width = 0
-height = 0
-length = 0
-whl = 0
-vfinal = 0
+width = 0.0
+height = 0.0
+length = 0.0
+whl = 0.0
+vfinal = 0.0
+grams = 0.0
 
-width = int(input("Width..."))
-height = int(input("Height..."))
-length = int(input("Length..."))
+width = float(input("Width...:").replace(",", "."))
+height = float(input("Height...:").replace(",", "."))
+length = float(input("Length...:").replace(",", "."))
+grams = float(input("Grams...:").replace(",", "."))
 
-whl = width * height * length 
+whl = (width * height * length) / 5
 
-vfinal = whl / 5
 
-print(f"Your product is {vfinal} grams.")
+if whl >= grams:
+    print(f"Your product is {whl:.2f} grams (Volumetric).")
+else:
+    print(f"Your product is {grams:.2f} grams (Actual).")
