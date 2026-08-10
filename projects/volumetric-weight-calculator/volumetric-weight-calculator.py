@@ -2,6 +2,7 @@ width = 0
 height = 0
 length = 0
 whl = 0
+vfinal = 0
 
 width = int(input("Width..."))
 height = int(input("Height..."))
