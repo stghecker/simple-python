@@ -62,6 +62,11 @@ At every run, a random race between 3 turtles runs.
 Simply enter the HEX code in the input and get the color on the screen!
 
 ---
+
+### 📦 Volumetric Weight Calculator 
+A simple calculator used to determine the dimensional shipping weight (in grams) of retail items using their width, height, and length.
+
+---
 ### **❓** Did you know?
 You can install python and run pyhton in CLI!
 #### HOW?
