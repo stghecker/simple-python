@@ -14,7 +14,7 @@ whl = (width * height * length) / 5
 
 if whl >= grams:
     print(f"Your product is {whl:.2f} grams (Volumetric).")
+    print(f"({width} * {height} * {length}) / 5")
 else:
-    print(f"Your product is {grams:.2f} grams (Actual).")
-
+    print(f"Your product is {grams:.2f} grams (Actual).")   
 #STGHECKER#
