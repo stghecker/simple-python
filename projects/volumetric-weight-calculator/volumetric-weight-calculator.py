@@ -2,7 +2,6 @@ width = 0.0
 height = 0.0
 length = 0.0
 whl = 0.0
-vfinal = 0.0
 grams = 0.0
 
 width = float(input("Width...:").replace(",", "."))
