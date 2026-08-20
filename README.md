@@ -66,13 +66,5 @@ Simply enter the HEX code in the input and get the color on the screen!
 ### 📦 Volumetric Weight Calculator 
 A simple calculator used to determine the dimensional shipping weight (in grams) of retail items using their width, height, and length.
 
----
-### **❗** Did you know?
-You can install python and run pyhton in CLI!
-#### HOW?
-- **Windows:**
-Download Python install manager 26.1 from https://www.python.org/downloads/release/pymanager-261/
-- **MacOS:**
-Dwonload installer from https://www.python.org/ftp/python/3.14.4/python-3.14.4-macos11.pkg
-- **Linux:**
-Download source code & install from https://www.python.org/ftp/python/3.14.4/Python-3.14.4.tar.xz
+Have fun!
+*stghecker*
